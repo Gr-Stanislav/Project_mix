@@ -652,6 +652,10 @@ footer p {
     display: none;
 }
 
+.hide {
+    display: none;
+}
+
 @media screen and (max-width: 1070px) {
    .nav_menu ul {
     width: 63%;
@@ -733,6 +737,15 @@ footer p {
 }
 
 @media screen and (max-width: 667px) {
+
+    header {
+        background-image: url('../images/head1.jpg');
+    }
+
+    .Recent-block {
+        background-image: url("../images/works_new.jpg");
+    }
+
     .header_logo {
         position: absolute;
         right: 50px;
@@ -979,9 +992,9 @@ footer p {
   padding: 10px 0;
   font-size: 22px;
   display: inline-block;
-  color: white;
+  color: rgb(160, 147, 147);
   margin-left: 5%;
-  text-shadow: 2px -1px #000000;
+  font-family: sans-serif;
 }
 
 #menu li:hover {

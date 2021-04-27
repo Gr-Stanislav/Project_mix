@@ -1,4 +1,5 @@
 const $page = $('html, body');
+
 $('a[href*="#"]').click(function() {
     $page.animate({
         scrollTop: $($.attr(this, 'href')).offset().top
@@ -45,4 +46,34 @@ $('.phone-icon-block').on('click', function(e) {
     $(".phone-icon-block").toggleClass('toggle');
 });
 
-  console.log("Menu");
+
+// Появление кнопки вверх----------------
+let block_show = null;
+ 
+function scrollTracking(){
+	let wt = $(window).scrollTop();
+	let wh = $(window).height();
+	let et = $('#header').offset().top;
+	let eh = $('#header').outerHeight();
+ 
+	if (wt + wh >= et && wt + wh - eh * 2 <= et + (wh - eh)){
+		if (block_show == null || block_show == false) {
+            $('.fix-arrow').addClass('hide');
+		}
+		block_show = true;
+	} else {
+		if (block_show == null || block_show == true) {
+            $('.fix-arrow').removeClass('hide');
+		}
+		block_show = false;
+	}
+}
+ 
+$(window).scroll(function(){
+	scrollTracking();
+});
+	
+$(document).ready(function(){ 
+	scrollTracking();
+});
+// ----------------------------------
