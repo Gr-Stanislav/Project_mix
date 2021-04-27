@@ -4,29 +4,323 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="/CSS/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="/images/Logo.svg" alt="logo" class="Aheader_logo">
+    <header id="header">
+            <div class="nav_menu">
+                <img src="/images/Logo.svg" alt="logo" class="header_logo">
 
-        <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICES</li>
-            <li>WORKS</li>
-            <li>CONTACT</li>
-        </ul>
+                <ul class="hidden">
+                    <a href="#header"><li>HOME</li></a>
+                    <a href="#About_as"><li>ABOUT</li></a>
+                    <a href="#Menu-block"><li>SERVICES</li></a>
+                    <a href="#Recent-block"><li>WORKS</li></a>
+                    <a href="#Get-in"><li>CONTACT</li></a>
+                </ul>
+            </div>
 
-        <h1>CREATIVE DIGITAL PROJECT</h1>
+            <div class="header_content">
+                <h1>CREATIVE DIGITAL PROJECT</h1>
 
-        <p>Duis mollis, est non commodo luctus,
-            nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                <p>Duis mollis, est non commodo luctus,
+                nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            </div>
     </header>
 
-    <div class="About_as">
 
+    <!-- Кнопка -->
+    <nav role="navigation" class="burger">
+        <div id="menuToggle">
+          
+          <input type="checkbox" />
+          
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          
+          <ul id="menu">
+            <a href="#header"><li>HOME</li></a>
+            <a href="#About_as"><li>ABOUT</li></a>
+            <a href="#Menu-block"><li>SERVICES</li></a>
+            <a href="#Recent-block"><li>WORKS</li></a>
+            <a href="#Get-in"><li>CONTACT</li></a>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="About_as" id="About_as">
+        <div class="About_as-content">
+            <div class="item-left">
+                <img src="/images/Icon-AboutUs.png" alt="Icon">
+
+                <h2>ABOUT US </h2>
+            </div>
+
+            <div class="item-right">
+                <p>Nullam quis risus eget urna <span class="item-right-br">mollis ornare</span> vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                    <br>
+                    <br>
+
+                    <span class="item-right-br">Morbi leo risus,</span> porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+                </p>
+
+                <a href="#" class="item-right-btn">Learn more</a>
+            </div>
+        </div>
     </div>
+
+    <div class="Menu-block" id="Menu-block">
+        <div class="block-item">
+
+            <div class="block_item-one">
+                <div class="item1 zag por">
+                    <img src="/images/Icon-Graphic.svg" alt="Icon" class="block_item-img">
+                    <h4>GRAPHIC DESIGN</h4>
+                    <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
+                <div class="item2 zag por">
+                    <img src="/images/Icon-SEO.svg" alt="Icon" class="block_item-img">
+                    <h4>SEO & MARKETING</h4>
+                    <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
+            </div>
+
+            <div class="block_item-two">
+                <div class="item3 zag por">
+                    <img src="/images/Icon-Web.svg" alt="Icon" class="block_item-img">
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
+                <div class="item4 zag por">
+                    <img src="/images/Icon-Mobile.svg" alt="Icon" class="block_item-img">
+                    <h4>MOBILE DEVELOPMENT</h4>
+                    <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
+            </div>
+
+            <div class="block_item-three zag por">
+                <img src="/images/Icon-Services.svg" alt="Icon" class="block_item-img">
+                <h4>OUR SERVICES</h4>
+                <p>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”
+                    - Borat -</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="Recent-block" id="Recent-block">
+        <img src="/images/recept-icon.png" alt="logo" class="img_recent">
+        <h2 class="text_recent">RECENT WORKS</h2>
+
+        <div class="slider_one">
+            <div class="item_slider">
+                <img src="/images/Works-front.png" alt="Works-front">
+            </div>
+
+            <div class="item_slider">
+                <img src="/images/fast.jpeg" alt="Works-front">
+            </div>
+
+            <div class="item_slider">
+                <img src="/images/03.jpeg" alt="Works-front">
+            </div>
+
+            <div class="item_slider">
+                <img src="/images/04.jpeg" alt="Works-front">
+            </div>
+        </div>
+        
+        
+
+        <a href="#" class="recent_btn">View Gallery</a>
+    </div>
+
+    <div class="Meet_our">
+        <img src="/images/Icon-Team.svg" alt="Team" class="Meet_our--img">
+        <h2 class="Meet_our--h2">MEET OUR TEAM</h2>
+
+        <div class="slider-two">
+
+            <div class="item-client">
+                <div class="photo-block">
+                    <img src="/images/001.svg" alt="photo">
+                </div>
+                <div class="info-block">
+                    <h3>MIGUEL OBRIEN</h3>
+                    <p>CEO & Founder</p>
+
+                    <div class="block-site">
+                        <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+                        <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+                        <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="/images/twitter.svg" alt="twitter"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-client">
+                <div class="photo-block">
+                    <img src="/images/002.svg" alt="photo">
+                </div>
+                <div class="info-block">
+                    <h3>JACKIE CARROLL</h3>
+                    <p>Art Director</p>
+
+                    <div class="block-site">
+                        <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+                        <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+                        <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="/images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="/images/behance.svg" alt="behance"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-client">
+                <div class="photo-block">
+                    <img src="/images/003.svg" alt="photo">
+                </div>
+                <div class="info-block">
+                    <h3>IDA MORRISON</h3>
+                    <p>Designer</p>
+
+                    <div class="block-site">
+                        <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+                        <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+                        <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="/images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="/images/behance.svg" alt="behance"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-client">
+                <div class="photo-block">
+                    <img src="/images/004.jpeg" alt="photo">
+                </div>
+                <div class="info-block">
+                    <h3>MIGUEL OBRIEN</h3>
+                    <p>CEO & Founder</p>
+
+                    <div class="block-site">
+                        <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+                        <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+                        <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="/images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="/images/behance.svg" alt="behance"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-client">
+                <div class="photo-block">
+                    <img src="/images/005.jpeg" alt="photo">
+                </div>
+                <div class="info-block">
+                    <h3>MIGUEL OBRIEN</h3>
+                    <p>CEO & Founder</p>
+
+                    <div class="block-site">
+                        <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+                        <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+                        <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="/images/behance.svg" alt="behance"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-client">
+                <div class="photo-block">
+                    <img src="/images/006.jpeg" alt="photo">
+                </div>
+                <div class="info-block">
+                    <h3>MIGUEL OBRIEN</h3>
+                    <p>CEO & Founder</p>
+
+                    <div class="block-site">
+                        <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+                        <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+                        <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="/images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="/images/behance.svg" alt="behance"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="Get-in" id="Get-in">
+        <img src="/images/Layer.svg" alt="Layer" class="Get-in__img">
+        <h2 class="Get-in__h2">GET IN TOUCH</h2>
+
+        <form action="">
+            <div class="blocker">
+                <input type="text" class="name" placeholder="Your Name *" maxlength="20" required>
+                <input type="email" name="" id="" class="mail" placeholder="Your Email *" maxlength="20">
+            </div>
+
+            <div class="blocker-two">
+                <textarea name="" id="" cols="30" rows="10" class="blocker-text" placeholder="Your Message *" maxlength="300" required></textarea>
+                <!-- <input type="text" name="" id="" class="blocker-text" placeholder="Your Message *" maxlength="300">  -->
+            </div>
+
+            <button type="submit" class="recent_btn form-btn">SEND MESSAGE</button>
+        </form>
+
+        <div class="home-icon-block">
+            <img src="/images/image-home.svg" alt="home" class="home-icon">
+
+            <p>Ikan Piranha Atas 220C 
+                Malang - East Java
+                Indonesia
+            </p>
+        </div>
+
+        <div class="phone-icon-block">
+            <img src="/images/image-phone.svg" alt="phone" class="phone-icon">
+
+            <p>+3(809)37-99-92
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>©2014 tulusdriyo. All Rights Reserved.</p>
+
+        <div class="nav-block">
+            <a href="#"><img src="/images/linked-in.svg" alt="linked"></a>
+            <a href="#"><img src="/images/google+.svg" alt="google+"></a>
+            <a href="#"><img src="/images/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="/images/twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="/images/behance.svg" alt="behance"></a>
+        </div>
+
+        <a href="#header" class="fix-arrow">
+            <img src="/images/top-arrow.svg" alt="top">
+        </a>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/JS/index.js"></script>
 </body>
 </html>
