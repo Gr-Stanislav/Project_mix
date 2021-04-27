@@ -221,7 +221,7 @@ h1 {
 
 /* RECENT-BLOCK---------------------------------------- */
 .Recent-block {
-    background-image: url("/images/recent-bg.png");
+    background-image: url("../images/recent-bg.png");
     width: 100%;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -285,7 +285,7 @@ h1 {
 
 .slider_one .slick-prev {
     left: -42px;
-    background-image: url(/images/left.svg);
+    background-image: url("../images/left.svg");
     background-color: #9f9acf00;
     background-size: cover;
     background-position: center;
@@ -296,7 +296,7 @@ h1 {
 
 .slider_one .slick-next {
     right: -38px;
-    background-image: url("/images/right.svg");
+    background-image: url("../images/right.svg");
     background-color: #9f9acf00;
     background-size: cover;
     background-position: center;
@@ -358,7 +358,6 @@ h1 {
 
 /* slider-two---------------- */
 .slider-two {
-    /* border: 1px solid black; */
     margin: 0 auto;
     margin-top: 40px;
     width: 50%;
@@ -375,7 +374,6 @@ h1 {
 .photo-block {
     width: 100%;
     height: 35%;
-    /* border: 1px solid rgb(128, 68, 0); */
     position: relative;
     display: flex;
     justify-content: center;
@@ -415,7 +413,6 @@ h1 {
 }
 
 .block-site {
-    /* border: 1px solid rgb(0, 0, 0); */
     width: 100%;
     height: 50px;
     position: absolute;
@@ -427,8 +424,6 @@ h1 {
 }
 
 .block-site a {
-    /* width: 20px;
-    height: 20px; */
     margin: 0 2%;
     margin-top: 10px;
     outline: 0;
@@ -458,7 +453,7 @@ h1 {
 
 .slider-two .slick-prev {
     left: -42px;
-    background-image: url("/images/left.svg");
+    background-image: url("../images/left.svg");
     background-color: #9f9acf00;
     background-size: cover;
     background-position: center;
@@ -469,7 +464,7 @@ h1 {
 
 .slider-two .slick-next {
     right: -38px;
-    background-image: url("/images/right.svg");
+    background-image: url("../images/right.svg");
     background-color: #9f9acf00;
     background-size: cover;
     background-position: center;
@@ -483,7 +478,7 @@ h1 {
 
 /* Get-in--------------------------------------- */
 .Get-in {
-    background-image: url("/images/Bg.svg");
+    background-image: url("../images/Bg.svg");
     width: 100%;
     /* height: 85vh; */
     padding-top: 30px;
@@ -512,7 +507,6 @@ input {
 }
 
 .blocker {
-    /* border: 1px solid black; */
     width: 50%;
     text-align: center;
     margin: 0 auto;
@@ -538,7 +532,6 @@ input::-moz-placeholder { color: white }
 }
 
 .blocker-two {
-    /* border: 1px solid black; */
     width: 50%;
     text-align: center;
     margin: 0 auto;
@@ -569,7 +562,6 @@ textarea::-moz-placeholder { color: white }
 }
 
 .home-icon {
-    /* position: absolute; */
     background-color: #9F9ACF;
     padding: 9px;
     right: 0;
@@ -577,7 +569,6 @@ textarea::-moz-placeholder { color: white }
 }
 
 .phone-icon {
-    /* position: absolute; */
     background-color: #9F9ACF;
     padding: 14px 20px;
     right: 0;
