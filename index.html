@@ -20,11 +20,11 @@
                 <img src="./images/Logo.svg" alt="logo" class="header_logo">
 
                 <ul class="hidden">
-                    <a href="#header"><li>HOME</li></a>
-                    <a href="#About_as"><li>ABOUT</li></a>
-                    <a href="#Menu-block"><li>SERVICES</li></a>
-                    <a href="#Recent-block"><li>WORKS</li></a>
-                    <a href="#Get-in"><li>CONTACT</li></a>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#About_as">ABOUT</a></li>
+                    <li><a href="#Menu-block">SERVICES</a></li>
+                    <li><a href="#Recent-block">WORKS</a></li>
+                    <li><a href="#Get-in">CONTACT</a></li>
                 </ul>
             </div>
 
@@ -38,7 +38,7 @@
 
 
     <!-- Кнопка -->
-    <nav role="navigation" class="burger">
+    <nav class="burger">
         <div id="menuToggle">
           
           <input type="checkbox" />
@@ -50,10 +50,10 @@
           
           
           <ul id="menu">
-            <a href="#About_as"><li>ABOUT</li></a>
-            <a href="#Menu-block"><li>SERVICES</li></a>
-            <a href="#Recent-block"><li>WORKS</li></a>
-            <a href="#Get-in"><li>CONTACT</li></a>
+                <li><a href="#About_as">ABOUT</a></li>
+                <li><a href="#Menu-block">SERVICES</a></li>
+                <li><a href="#Recent-block">WORKS</a></li>
+                <li><a href="#Get-in">CONTACT</a></li>
           </ul>
         </div>
       </nav>
@@ -269,14 +269,14 @@
         <img src="./images/Layer.svg" alt="Layer" class="Get-in__img">
         <h2 class="Get-in__h2">GET IN TOUCH</h2>
 
-        <form action="">
+        <form action="#" method="POST">
             <div class="blocker">
                 <input type="text" class="name" placeholder="Your Name *" maxlength="20" required>
-                <input type="email" name="" class="mail" placeholder="Your Email *" maxlength="20" required>
+                <input type="email" name="mail" class="mail" placeholder="Your Email *" maxlength="20" required>
             </div>
 
             <div class="blocker-two">
-                <textarea name="" id="" cols="30" rows="10" class="blocker-text" placeholder="Your Message *" maxlength="300" required></textarea>
+                <textarea name="text_client" cols="30" rows="10" class="blocker-text" placeholder="Your Message *" maxlength="300" required></textarea>
             </div>
 
             <button type="submit" class="recent_btn form-btn">SEND MESSAGE</button>
@@ -318,7 +318,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="JS/index.js"></script>
 </body>
 </html>
