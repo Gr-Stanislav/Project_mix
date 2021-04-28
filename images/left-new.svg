@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.016" height="38.001" viewBox="0 0 22.016 38.001">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5e5e5;
+      }
+    </style>
+  </defs>
+  <path id="interface_-_arrow_left" data-name="interface - arrow left" class="cls-1" d="M182.539,3198.857l-20.057-17.868a1.249,1.249,0,0,1,0-1.981l20.057-17.866a.938.938,0,0,1,1.338.391,1.12,1.12,0,0,1-.359,1.457L164.423,3180l19.1,17.01a1.119,1.119,0,0,1,.359,1.456.97.97,0,0,1-.85.535A.911.911,0,0,1,182.539,3198.857Z" transform="translate(-161.992 -3160.999)"/>
+</svg>
