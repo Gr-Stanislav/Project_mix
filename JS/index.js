@@ -77,3 +77,15 @@ $(document).ready(function(){
 	scrollTracking();
 });
 // ----------------------------------
+
+$(document).ready(function () {
+    $("#login-form").submit(function (e) {
+        e.preventDefault();
+        $(".otp").removeClass("hidden");
+    });
+  });
+
+$('.close').on('click', function(e) {
+    e.preventDefault();
+    $(".otp").addClass('hidden');
+});

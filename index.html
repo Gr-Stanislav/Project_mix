@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Logo.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -266,10 +267,18 @@
     </div>
 
     <div class="Get-in" id="Get-in">
+        <div class="otp hidden">
+            <div class="forma">
+                <img src="./images/close_black_24dp.svg" alt="close" class="close">
+                <p>Message sent!</p>
+            </div>
+        </div>
+
+
         <img src="./images/Layer.svg" alt="Layer" class="Get-in__img">
         <h2 class="Get-in__h2">GET IN TOUCH</h2>
 
-        <form action="#" method="POST">
+        <form action="#" method="POST" id="login-form">
             <div class="blocker">
                 <input type="text" class="name" placeholder="Your Name *" maxlength="20" required>
                 <input type="email" name="mail" class="mail" placeholder="Your Email *" maxlength="20" required>
@@ -314,7 +323,6 @@
             <img src="./images/top-arrow.svg" alt="top">
         </a>
     </footer>
-
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
