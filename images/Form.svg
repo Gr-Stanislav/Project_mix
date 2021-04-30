@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="408" viewBox="0 0 860 408">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Shape_34" data-name="Shape 34" width="293" height="70" rx="4" transform="translate(654 5262)" fill="#9f9acf"/>
+    </clipPath>
+  </defs>
+  <g id="Form" transform="translate(-370 -4924)">
+    <g id="Send_Message_btn" data-name="Send Message btn">
+      <g id="Shape_34-2" data-name="Shape 34">
+        <rect id="Shape_34-3" data-name="Shape 34" width="293" height="70" rx="4" transform="translate(654 5262)" fill="#9f9acf"/>
+        <g id="Clip" clip-path="url(#clip-path)">
+          <rect id="Shape_35" data-name="Shape 35" width="294" height="3.98" transform="translate(654 5328.02)" opacity="0.149"/>
+        </g>
+      </g>
+      <text id="SEND_MESSAGE" data-name="SEND MESSAGE" transform="translate(722.376 5302.715)" fill="#fff" font-size="20" font-family="Helvetica" letter-spacing="0.02em"><tspan x="0" y="0">SEND MESSAGE</tspan></text>
+    </g>
+    <g id="Message_box" data-name="Message box">
+      <rect id="Base" width="860" height="200" rx="4" transform="translate(370 5007)" fill="#ebebeb" opacity="0.502"/>
+      <path id="Arrow" d="M1219,5199v-3h3v3Zm-4,0v-3h3v3Zm-4,0v-3h3v3Zm8-4v-3h3v3Zm-4,0v-3h3v3Zm4-4v-3h3v3Z" fill="#9f9acf"/>
+      <text id="Your_Message_" data-name="Your Message *" transform="translate(395.313 5043.5)" fill="#fff" font-size="18" font-family="PTSans-Italic, PT Sans" font-style="italic"><tspan x="0" y="0">Your Message </tspan><tspan y="0" fill="#665f60">*</tspan></text>
+    </g>
+    <g id="Email_box" data-name="Email box">
+      <rect id="Base-2" data-name="Base" width="414" height="56" rx="4" transform="translate(816 4924)" fill="#ebebeb" opacity="0.502"/>
+      <text id="Your_Email_" data-name="Your Email *" transform="translate(841.313 4958.5)" fill="#fff" font-size="18" font-family="PTSans-Italic, PT Sans" font-style="italic"><tspan x="0" y="0">Your Email </tspan><tspan y="0" fill="#9f9acf">*</tspan></text>
+    </g>
+    <g id="Name_box" data-name="Name box">
+      <rect id="Base-3" data-name="Base" width="414" height="56" rx="4" transform="translate(370 4924)" fill="#ebebeb" opacity="0.502"/>
+      <text id="Your_Name_" data-name="Your Name *" transform="translate(395.313 4958.5)" fill="#fefefe" font-size="18" font-family="PTSans-Italic, PT Sans" font-style="italic"><tspan x="0" y="0">Your Name </tspan><tspan y="0" fill="#665f60">*</tspan></text>
+    </g>
+  </g>
+</svg>
